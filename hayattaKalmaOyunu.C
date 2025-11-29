@@ -378,7 +378,7 @@ int main(){
     // Rastgele sayi ureticisi icin tohum atiyoruz (Seed)
     srand(time(NULL)); 
 
-    printf("HAYATTA KALMA SIMULATORU v2.1\n");
+    printf("HAYATTA KALMA SIMULATORU\n");
     panel_ciz(energy, saglik, yemek_sayisi, siginak_var_mi);
 
     // ANA OYUN DONGUSU (DO-WHILE)
@@ -474,4 +474,5 @@ int main(){
     } while (1); // 1 = True (Sonsuz Dongu)
     
     return 0;
+
 }
